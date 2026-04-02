@@ -1,0 +1,376 @@
+{
+    "meta": {
+        "lang": "pl",
+        "title": "Najlepsze Bonusy Kasynowe & Darmowe Spiny 2026",
+        "description": "Porównaj najlepsze bonusy kasyn online 2026. Darmowe spiny bez depozytu, kody promocyjne i bonusy powitalne. Odbierz swój bonus!",
+        "keywords": "kasyno online, bonus kasynowy, darmowe spiny, bez depozytu, kod promocyjny, bonus powitalny, prawdziwe pieniądze, najlepsze kasyna, zakłady sportowe, kasyno 2026",
+        "h1": "Najlepsze Bonusy Kasynowe 2026",
+        "subtitle": "Odkryj ekskluzywne bonusy do €600 i 200 darmowych spinów. Oferty bez depozytu — zacznij wygrywać już dziś!",
+        "updated": "2026-04-02"
+    },
+    "trust": [
+        "🔒 Licencjonowane kasyna",
+        "⚡ Szybkie wypłaty gwarantowane",
+        "📱 Kasyno mobilne",
+        "🎁 Bonus bez depozytu",
+        "✅ Zweryfikowane przez ekspertów"
+    ],
+    "nav": {
+        "all": "🏠 Wszystkie oferty",
+        "reg": "🎁 Bonus rejestracyjny",
+        "bonus": "💰 Bonusy",
+        "free": "🆓 Bez depozytu",
+        "slots": "🎰 Automaty",
+        "jackpot": "💎 Jackpoty",
+        "live": "🃏 Live kasyno",
+        "sport": "⚽ Zakłady",
+        "tourn": "🏆 Turnieje"
+    },
+    "categories": {
+        "reg": {
+            "label": "🎁 Rejestracja",
+            "headline": "Zarejestruj się i Odbierz",
+            "sub": "Szybka rejestracja z natychmiastowymi nagrodami"
+        },
+        "bonus": {
+            "label": "💰 Bonusy",
+            "headline": "Największe Bonusy Powitalne",
+            "sub": "Najlepsze oferty wpłatowe i pakiety spinów"
+        },
+        "free": {
+            "label": "🆓 Bez Depozytu",
+            "headline": "Zero Ryzyka, Prawdziwe Nagrody",
+            "sub": "Darmowe spiny i bonusy bez depozytu"
+        },
+        "slots": {
+            "label": "🎰 Automaty",
+            "headline": "Kręć i Wygrywaj Natychmiast",
+            "sub": "Najlepsze automaty z wysokim RTP"
+        },
+        "jackpot": {
+            "label": "💎 Jackpoty",
+            "headline": "Jackpoty Zmieniające Życie",
+            "sub": "Progresywne jackpoty warte miliony"
+        },
+        "live": {
+            "label": "🃏 Live Kasyno",
+            "headline": "Prawdziwi Krupierzy, Prawdziwe Wygrane",
+            "sub": "Live blackjack, ruletka i bakarat"
+        },
+        "sport": {
+            "label": "⚽ Zakłady",
+            "headline": "Najlepsze Kursy, Największe Wygrane",
+            "sub": "Piłka nożna, tenis i zakłady na żywo"
+        },
+        "tourn": {
+            "label": "🏆 Turnieje",
+            "headline": "Rywalizuj o Wielkie Nagrody",
+            "sub": "Turnieje kasynowe i sportowe"
+        },
+        "main": {
+            "label": "🏠 Ogólne",
+            "headline": "Odkryj Najlepsze Kasyna",
+            "sub": "Strona główna, regulamin i informacje"
+        }
+    },
+    "affiliates": [
+        {
+            "id": 53661,
+            "name": "Casinia Slot Chicken Road PL",
+            "brand": "Casinia",
+            "url": "https://9867-cas1nia.com/pl/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €500 + 200 Free Spins",
+            "bonus_amount": 500,
+            "free_spins": 200,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "40x",
+            "rating": 4.7,
+            "license": "MGA Malta",
+            "highlights": [
+                "5000+ Gier",
+                "Bonus Bez Depozytu",
+                "Krypto Akceptowane",
+                "Program VIP"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Play & win big on Casinia"
+        },
+        {
+            "id": 62438,
+            "name": "Rabona_US Open_PL",
+            "brand": "Rabona",
+            "url": "https://rbnn11cm.lpmediastorage.com/pl",
+            "category": "sport",
+            "product": "Sport",
+            "bonus": "100% up to €300 + 100 Free Spins",
+            "bonus_amount": 300,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "35x",
+            "rating": 4.6,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Kasyno na Żywo",
+                "Zakłady Sportowe",
+                "Szybkie Wypłaty",
+                "Aplikacja Mobilna"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Rabona sports — bet & win big"
+        },
+        {
+            "id": 62225,
+            "name": "Rabona Weekend Reload PL",
+            "brand": "Rabona",
+            "url": "https://ksfjdjffg86.com/pl/promotions/casino/weekend-reload",
+            "category": "bonus",
+            "product": "Casino",
+            "bonus": "100% up to €300 + 100 Free Spins",
+            "bonus_amount": 300,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "35x",
+            "rating": 4.6,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Kasyno na Żywo",
+                "Zakłady Sportowe",
+                "Szybkie Wypłaty",
+                "Aplikacja Mobilna"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Huge bonus waiting at Rabona"
+        },
+        {
+            "id": 53601,
+            "name": "Rabona_Casino_Retention_Slot_PL",
+            "brand": "Rabona",
+            "url": "https://ksfjdjffg86.com/pl/promotions",
+            "category": "main",
+            "product": "Casino",
+            "bonus": "100% up to €300 + 100 Free Spins",
+            "bonus_amount": 300,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "35x",
+            "rating": 4.6,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Kasyno na Żywo",
+                "Zakłady Sportowe",
+                "Szybkie Wypłaty",
+                "Aplikacja Mobilna"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Discover everything at Rabona"
+        },
+        {
+            "id": 38521,
+            "name": "Rabona Tournaments Euro 2024 PL",
+            "brand": "Rabona",
+            "url": "https://ksfjdjffg86.com/pl/tournaments/euro2024",
+            "category": "tourn",
+            "product": "Casino",
+            "bonus": "100% up to €300 + 100 Free Spins",
+            "bonus_amount": 300,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "35x",
+            "rating": 4.6,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Kasyno na Żywo",
+                "Zakłady Sportowe",
+                "Szybkie Wypłaty",
+                "Aplikacja Mobilna"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Win big prizes in Rabona events"
+        },
+        {
+            "id": 53649,
+            "name": "Nomini Slot Chicken Road PL",
+            "brand": "Nomini",
+            "url": "https://8noreq7yg4.com/pl/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "150% up to €400 + 150 Free Spins",
+            "bonus_amount": 400,
+            "free_spins": 150,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 15,
+            "wagering": "35x",
+            "rating": 4.5,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Tygodniowy Cashback",
+                "Kasyno na Żywo",
+                "Turnieje",
+                "Szybka Wypłata"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Play & win big on Nomini"
+        },
+        {
+            "id": 60016,
+            "name": "SpinIt General T&C PL",
+            "brand": "SpinIt",
+            "url": "https://2spnnt2.com/pl/rules",
+            "category": "main",
+            "product": "Casino",
+            "bonus": "100% up to €200 + 100 Free Spins",
+            "bonus_amount": 200,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "30x",
+            "rating": 4.4,
+            "license": "MGA Malta",
+            "highlights": [
+                "Spiny Bez Depozytu",
+                "Specjalista Automatów",
+                "Zoptymalizowane Mobilnie",
+                "Codzienne Promocje"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Explore SpinIt — games & bonuses"
+        },
+        {
+            "id": 53653,
+            "name": "SpinIt Slot Chicken Road PL",
+            "brand": "SpinIt",
+            "url": "https://2spnnt2.com/pl/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €200 + 100 Free Spins",
+            "bonus_amount": 200,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "30x",
+            "rating": 4.4,
+            "license": "MGA Malta",
+            "highlights": [
+                "Spiny Bez Depozytu",
+                "Specjalista Automatów",
+                "Zoptymalizowane Mobilnie",
+                "Codzienne Promocje"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Play & win big on SpinIt"
+        },
+        {
+            "id": 53657,
+            "name": "Spinanga Slot Chicken Road PL",
+            "brand": "Spinanga",
+            "url": "https://1spnng1.com/pl/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "200% up to €600 + 50 Free Spins",
+            "bonus_amount": 600,
+            "free_spins": 50,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "40x",
+            "rating": 4.3,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Krypto Kasyno",
+                "Wysoki Bonus",
+                "Gry Pokerowe",
+                "Zakłady Sportowe"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Play & win big on Spinanga"
+        },
+        {
+            "id": 53645,
+            "name": "BassBet Slot Chicken Road PL",
+            "brand": "BassBet",
+            "url": "https://bassbt100.com/pl/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €250 + 50 Free Spins",
+            "bonus_amount": 250,
+            "free_spins": 50,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 15,
+            "wagering": "35x",
+            "rating": 4.2,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Sport i Kasyno",
+                "Zakłady na Żywo",
+                "Gra Chicken Road",
+                "Tygodniowy Reload"
+            ],
+            "cta_text": "Odbierz Teraz",
+            "card_headline": "Play & win big on BassBet"
+        }
+    ],
+    "seo_text": {
+        "about_h2": "Twój przewodnik po najlepszych bonusach kasynowych 2026",
+        "about_p1": "Witamy na Twojej najlepszej platformie do znajdowania bonusów kasyn online. Porównujemy setki ofert z licencjonowanych kasyn, dostarczając ekskluzywne bonusy powitalne, darmowe spiny bez depozytu i działające kody promocyjne. Czy wolisz automaty, gry z krupierem na żywo czy zakłady sportowe — nasza lista pomoże Ci znaleźć idealny bonus.",
+        "about_p2": "Każde kasyno posiada ważną licencję od Malta Gaming Authority (MGA) lub Curacao eGaming. Weryfikujemy zabezpieczenia, czasy wypłat i jakość obsługi klienta. Twoje bezpieczeństwo jest priorytetem — polecamy tylko kasyna z szyfrowaniem SSL i narzędziami odpowiedzialnej gry.",
+        "about_p3": "Zrozumienie warunków obrotu jest kluczowe. Wagering 35x oznacza postawienie 35 razy kwoty bonusu przed wypłatą. Odwiedź naszą <a href=\"#bonus\">sekcję bonusów</a> dla najlepszych ofert lub sprawdź <a href=\"#free\">oferty bez depozytu</a>. Zawsze czytaj regulamin i porównuj minimalne depozyty."
+    },
+    "faq": [
+        {
+            "q": "Jaki jest najlepszy bonus kasynowy 2026?",
+            "a": "Najlepsze bonusy 2026 oferują do €600 z 200 darmowymi spinami. Casinia oferuje 100% do €500 + 200 spinów z licencją MGA, Spinanga 200% do €600. Porównaj wszystkie oferty na naszej stronie."
+        },
+        {
+            "q": "Jak użyć kodu promocyjnego kasyna?",
+            "a": "Skopiuj kod z naszej strony (np. RABONA20 lub CASINIA30) i wklej go podczas rejestracji lub w sekcji kasowej. Niektóre kody automatycznie aktywują darmowe spiny. Sprawdź czy kod trzeba wpisać przy rejestracji czy przy pierwszym depozycie."
+        },
+        {
+            "q": "Co oznacza warunek obrotu?",
+            "a": "Warunek obrotu (np. 35x) oznacza konieczność postawienia tej wielokrotności bonusu przed wypłatą. Dla bonusu €100 z 35x potrzeba €3.500 w zakładach. Niższe wymagania jak 30x są korzystniejsze. Automaty liczą się zwykle w 100%."
+        },
+        {
+            "q": "Czy te kasyna online są bezpieczne?",
+            "a": "Tak, wszystkie kasyna posiadają licencje MGA lub Curacao eGaming. Stosują szyfrowanie SSL, oferują narzędzia odpowiedzialnej gry i są regularnie audytowane."
+        },
+        {
+            "q": "Jak szybko mogę wypłacić wygrane?",
+            "a": "E-portfele i krypto są przetwarzane w 24h. Przelewy bankowe trwają 2-5 dni roboczych. Większość kasyn na naszej liście jest znana z szybkich wypłat."
+        },
+        {
+            "q": "Czy mogę grać na telefonie?",
+            "a": "Oczywiście! Wszystkie polecane kasyna są w pełni zoptymalizowane pod kątem gry mobilnej. Graj, wpłacaj, odbieraj bonusy i wypłacaj z poziomu smartfona."
+        }
+    ],
+    "footer": {
+        "disclaimer_18": "18+ Tylko dla dorosłych. Hazard może uzależniać. Graj odpowiedzialnie.",
+        "affiliate_disclosure": "Ta strona zawiera linki afiliacyjne. Możemy otrzymać prowizję bez dodatkowych kosztów dla Ciebie.",
+        "responsible_gambling": "Jeśli hazard staje się problemem, szukaj pomocy. Odwiedź Anonimowych Hazardzistów lub GamCare (www.gamcare.org.uk)."
+    },
+    "blogs": []
+}

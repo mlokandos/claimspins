@@ -1,0 +1,220 @@
+{
+    "meta": {
+        "lang": "sk",
+        "title": "Najlepšie Casino Bonusy & Zatočenia Zadarmo 2026",
+        "description": "Porovnajte najlepšie bonusy online kasín 2026. Zatočenia zadarmo bez vkladu, promo kódy a uvítacie bonusy. Získajte bonus!",
+        "keywords": "online kasíno, casino bonus, zatočenia zadarmo, bez vkladu, promo kód, uvítací bonus, skutočné peniaze, kasíno 2026",
+        "h1": "Najlepšie Casino Bonusy 2026",
+        "subtitle": "Objavte exkluzívne bonusy až do €600 a 200 zatočení zadarmo. Ponuky bez vkladu — začnite vyhrávať!",
+        "updated": "2026-04-02"
+    },
+    "trust": [
+        "🔒 Licencované kasína",
+        "⚡ Rýchle výplaty zaručené",
+        "📱 Mobilné kasíno",
+        "🎁 Bonus bez vkladu",
+        "✅ Overené expertmi"
+    ],
+    "nav": {
+        "all": "🏠 Všetky ponuky",
+        "reg": "🎁 Registračný bonus",
+        "bonus": "💰 Bonusy",
+        "free": "🆓 Bez vkladu",
+        "slots": "🎰 Automaty",
+        "jackpot": "💎 Jackpoty",
+        "live": "🃏 Live kasíno",
+        "sport": "⚽ Stávky",
+        "tourn": "🏆 Turnaje"
+    },
+    "categories": {
+        "reg": {
+            "label": "🎁 Registrácia",
+            "headline": "Zaregistrujte sa a Získajte",
+            "sub": "Rýchla registrácia s okamžitými odmenami"
+        },
+        "bonus": {
+            "label": "💰 Bonusy",
+            "headline": "Najväčšie Uvítacie Bonusy",
+            "sub": "Najlepšie ponuky vkladu a free spiny"
+        },
+        "free": {
+            "label": "🆓 Bez Vkladu",
+            "headline": "Žiadne Riziko, Skutočné Výhry",
+            "sub": "Zatočenia zadarmo a bonusy bez vkladu"
+        },
+        "slots": {
+            "label": "🎰 Automaty",
+            "headline": "Točte a Vyhrajte Hneď",
+            "sub": "Najlepšie automaty s vysokým RTP"
+        },
+        "jackpot": {
+            "label": "💎 Jackpoty",
+            "headline": "Jackpoty Meniace Životy",
+            "sub": "Progresívne jackpoty za milióny"
+        },
+        "live": {
+            "label": "🃏 Live Kasíno",
+            "headline": "Skutoční Krupiéri, Skutočné Výhry",
+            "sub": "Live blackjack, ruleta a baccarat"
+        },
+        "sport": {
+            "label": "⚽ Stávky",
+            "headline": "Najlepšie Kurzy, Najväčšie Výhry",
+            "sub": "Futbal, tenis a živé stávky"
+        },
+        "tourn": {
+            "label": "🏆 Turnaje",
+            "headline": "Súťažte o Veľké Ceny",
+            "sub": "Kasínové a športové turnaje"
+        },
+        "main": {
+            "label": "🏠 Všeobecné",
+            "headline": "Objavte Najlepšie Kasína",
+            "sub": "Hlavná stránka, pravidlá a informácie"
+        }
+    },
+    "affiliates": [
+        {
+            "id": 59200,
+            "name": "Casinia Slot Chicken Road SK",
+            "brand": "Casinia",
+            "url": "https://9867-cas1nia.com/sk/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €500 + 200 Free Spins",
+            "bonus_amount": 500,
+            "free_spins": 200,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "40x",
+            "rating": 4.7,
+            "license": "MGA Malta",
+            "highlights": [
+                "5000+ Hier",
+                "Bonus Bez Vkladu",
+                "Krypto Akceptované",
+                "VIP Program"
+            ],
+            "cta_text": "Získať Teraz",
+            "card_headline": "Spin Casinia slots for massive wins"
+        },
+        {
+            "id": 38561,
+            "name": "Rabona Tournaments Euro 2024 SK",
+            "brand": "Rabona",
+            "url": "https://ksfjdjffg86.com/sk/tournaments/euro2024",
+            "category": "tourn",
+            "product": "Casino",
+            "bonus": "100% up to €300 + 100 Free Spins",
+            "bonus_amount": 300,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 20,
+            "wagering": "35x",
+            "rating": 4.6,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Live Kasíno",
+                "Športové Stávky",
+                "Rýchle Výplaty",
+                "Mobilná Aplikácia"
+            ],
+            "cta_text": "Získať Teraz",
+            "card_headline": "Join the action at Rabona tournaments"
+        },
+        {
+            "id": 59197,
+            "name": "SpinIt Slot Chicken Road SK",
+            "brand": "SpinIt",
+            "url": "https://4swi5eru.com/sk/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €200 + 100 Free Spins",
+            "bonus_amount": 200,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "30x",
+            "rating": 4.4,
+            "license": "MGA Malta",
+            "highlights": [
+                "Zatočenia Bez Vkladu",
+                "Špecialista Automatov",
+                "Mobilne Optimalizované",
+                "Denné Akcie"
+            ],
+            "cta_text": "Získať Teraz",
+            "card_headline": "Play & win big on SpinIt"
+        },
+        {
+            "id": 54328,
+            "name": "BassBet Slot Chicken Road SK",
+            "brand": "BassBet",
+            "url": "https://bsbt4rt.com/sk/game/chicken-road-v2",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €250 + 50 Free Spins",
+            "bonus_amount": 250,
+            "free_spins": 50,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 15,
+            "wagering": "35x",
+            "rating": 4.2,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Šport & Kasíno",
+                "Živé Stávky",
+                "Hra Chicken Road",
+                "Týždenný Reload"
+            ],
+            "cta_text": "Získať Teraz",
+            "card_headline": "Spin BassBet slots for massive wins"
+        }
+    ],
+    "seo_text": {
+        "about_h2": "Váš sprievodca najlepšími casino bonusmi 2026",
+        "about_p1": "Vitajte na najlepšej platforme pre vyhľadávanie bonusov online kasín. Porovnávame stovky ponúk z licencovaných kasín a prinášame exkluzívne uvítacie bonusy a promo kódy.",
+        "about_p2": "Každé kasíno má platnú licenciu od Malta Gaming Authority (MGA) alebo Curacao eGaming. Overujeme bezpečnostné opatrenia a doby výplat.",
+        "about_p3": "Pochopenie podmienok pretočenia je kľúčové. 35x wagering znamená staviť 35-krát bonus. Navštívte <a href=\"#bonus\">sekciu bonusov</a> alebo preskúmajte <a href=\"#free\">ponuky bez vkladu</a>."
+    },
+    "faq": [
+        {
+            "q": "Aký je najlepší casino bonus 2026?",
+            "a": "Najlepšie bonusy ponúkajú až €600 s 200 zatočeniami zadarmo. Casinia ponúka 100% do €500 s MGA licenciou."
+        },
+        {
+            "q": "Ako použiť promo kód?",
+            "a": "Skopírujte kód (napr. RABONA20) a vložte pri registrácii alebo v pokladni."
+        },
+        {
+            "q": "Čo znamená podmienka pretočenia?",
+            "a": "35x pretočenie znamená staviť 35-krát bonus pred výberom."
+        },
+        {
+            "q": "Sú tieto kasína bezpečné?",
+            "a": "Áno, všetky majú licencie MGA alebo Curacao eGaming s SSL šifrovaním."
+        },
+        {
+            "q": "Ako rýchlo môžem vybrať výhry?",
+            "a": "E-peňaženky do 24 hodín, bankové prevody 2-5 pracovných dní."
+        },
+        {
+            "q": "Môžem hrať na mobile?",
+            "a": "Samozrejme! Všetky kasína sú optimalizované pre mobilné hranie."
+        }
+    ],
+    "footer": {
+        "disclaimer_18": "18+ Len pre dospelých. Hazardné hry môžu byť návykové. Hrajte zodpovedne.",
+        "affiliate_disclosure": "Tento web obsahuje affiliate odkazy. Môžeme získať províziu bez nákladov pre vás.",
+        "responsible_gambling": "Ak sa gambling stane problémom, vyhľadajte pomoc. GamCare (www.gamcare.org.uk)."
+    },
+    "blogs": []
+}
