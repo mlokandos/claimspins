@@ -10,8 +10,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 
-# ── Root → index.php (auto-detect language) ──
-RewriteRule ^$ index.php [L,QSA]
+# ── Root → detect language and redirect ──
+RewriteRule ^$ redirect.php [L]
 
 # ── sitemap.xml → sitemap.php ──
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
@@ -23,9 +23,6 @@ RewriteRule ^data/ - [F,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([a-z]{2})/?$ index.php [L,QSA]
-
-# ── Blog static files: /blog/{slug}/ → blog/{slug}/index.html ──
-RewriteRule ^blog/([a-z0-9\-]+)/?$ blog/$1/index.html [L]
 
 # ── Blog routing: /xx/blog-slug/ → index.php ──
 RewriteCond %{REQUEST_FILENAME} !-f

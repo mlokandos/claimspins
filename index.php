@@ -669,6 +669,7 @@ document.getElementById('cookie-ok')?.addEventListener('click',()=>{
   localStorage.setItem('ck','1');
   document.getElementById('cookie-banner').style.display='none';
 });
+
 </script>
 <!-- v2.1-categories | <?= date('Y-m-d') ?> -->
 </body>
