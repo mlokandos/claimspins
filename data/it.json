@@ -723,6 +723,31 @@
             ],
             "cta_text": "Claim Now",
             "card_headline": "Explore OnlySpins — games & bonuses"
+        },
+        {
+            "id": 72322,
+            "name": "Spinit Slot Esqueleto Explosivo IT",
+            "brand": "SpinIt",
+            "url": "https://2spnnt2.com/it/game/esqueleto-explosivo",
+            "category": "slots",
+            "product": "Casino",
+            "bonus": "100% up to €200 + 100 Free Spins",
+            "bonus_amount": 200,
+            "free_spins": 100,
+            "no_deposit_spins": 0,
+            "no_deposit_code": "",
+            "promo_code": "",
+            "min_deposit": 10,
+            "wagering": "30x",
+            "rating": 4.4,
+            "license": "Curacao eGaming",
+            "highlights": [
+                "Slot Games",
+                "Esqueleto Explosivo",
+                "Free Spins"
+            ],
+            "cta_text": "Gioca Ora",
+            "card_headline": "Gioca a Esqueleto Explosivo con giri gratis"
         }
     ],
     "seo_text": {
