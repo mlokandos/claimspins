@@ -680,6 +680,31 @@
       ],
       "cta_text": "Jugar Ahora",
       "card_headline": "Juega It's Shark Time en SpinIt"
+    },
+    {
+      "id": 72579,
+      "name": "Casinia Promotions CL",
+      "brand": "Casinia",
+      "url": "https://9867-cas1nia.com/cl/promotions/",
+      "category": "bonus",
+      "product": "Casino",
+      "bonus": "100% up to €500 + 200 Free Spins",
+      "bonus_amount": 500,
+      "free_spins": 200,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "40x",
+      "rating": 4.7,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Exclusive Promotions",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Ver Promociones",
+      "card_headline": "Las mejores promociones de Casinia para Chile"
     }
   ],
   "seo_text": {
