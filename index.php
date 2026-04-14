@@ -804,6 +804,15 @@ function filterCat(key,btn){
   document.querySelectorAll('.cat-section').forEach(s=>{
     s.style.display=(key==='all'||s.dataset.cat===key)?'':'none';
   });
+  // Scroll to the first visible section
+  const target = key==='all'
+    ? document.querySelector('.cat-section')
+    : document.getElementById('cat-'+key);
+  if(target){
+    const stickyOffset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--banner-h')||'0')+64+8;
+    const top = target.getBoundingClientRect().top + window.scrollY - stickyOffset;
+    window.scrollTo({top, behavior:'smooth'});
+  }
 }
 
 // Count-up animation
