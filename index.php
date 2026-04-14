@@ -77,27 +77,76 @@ $totalSpins  = array_sum(array_column($affs,'free_spins'));
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"WebPage",
-  "name":<?= json_encode($meta['title'] ?? 'Best Online Casinos') ?>,
-  "description":<?= json_encode($meta['description'] ?? '') ?>,
-  "url":<?= json_encode($canonical) ?>,
-  "dateModified":<?= json_encode($meta['updated'] ?? date('Y-m-d')) ?>,
-  "mainEntity":{
-    "@type":"ItemList",
-    "numberOfItems":<?= $totalLinks ?>,
-    "itemListElement":[
-      <?php foreach($affs as $idx => $item): ?>
-      <?= $idx > 0 ? ',' : '' ?>{
-        "@type":"ListItem",
-        "position":<?= $idx+1 ?>,
-        "name":<?= json_encode($item['brand'] ?? '') ?>,
-        "url":<?= json_encode($item['url'] ?? '') ?>
-      }
-      <?php endforeach; ?>
-    ]
+  "@type":"WebSite",
+  "name":"ClaimSpins",
+  "url":<?= json_encode($BASE_DOMAIN) ?>,
+  "description":<?= json_encode($meta['description'] ?? 'Best online casino bonuses and free spins') ?>,
+  "inLanguage":<?= json_encode($lang) ?>,
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":{
+      "@type":"EntryPoint",
+      "urlTemplate":<?= json_encode($BASE_DOMAIN . '/' . $lang . '/?q={search_term_string}') ?>
+    },
+    "query-input":"required name=search_term_string"
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"ClaimSpins",
+  "url":<?= json_encode($BASE_DOMAIN) ?>,
+  "logo":{
+    "@type":"ImageObject",
+    "url":<?= json_encode($BASE_DOMAIN . '/favicon.svg') ?>,
+    "width":512,
+    "height":512
+  },
+  "sameAs":[],
+  "contactPoint":{
+    "@type":"ContactPoint",
+    "contactType":"customer support",
+    "url":<?= json_encode($canonical) ?>
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":<?= json_encode($meta['title'] ?? 'Best Online Casinos ' . $currentYear) ?>,
+  "description":<?= json_encode($meta['description'] ?? '') ?>,
+  "url":<?= json_encode($canonical) ?>,
+  "inLanguage":<?= json_encode($lang) ?>,
+  "dateModified":<?= json_encode($meta['updated'] ?? date('Y-m-d')) ?>,
+  "isPartOf":{"@type":"WebSite","url":<?= json_encode($BASE_DOMAIN) ?>},
+  "publisher":{"@type":"Organization","name":"ClaimSpins","url":<?= json_encode($BASE_DOMAIN) ?>}
+}
+</script>
+<?php if(!empty($affs)): ?>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":<?= json_encode($meta['title'] ?? 'Best Online Casinos ' . $currentYear) ?>,
+  "description":<?= json_encode($meta['description'] ?? '') ?>,
+  "url":<?= json_encode($canonical) ?>,
+  "numberOfItems":<?= $totalLinks ?>,
+  "itemListElement":[
+    <?php foreach($affs as $idx => $item): ?>
+    <?= $idx > 0 ? ',' : '' ?>{
+      "@type":"ListItem",
+      "position":<?= $idx+1 ?>,
+      "name":<?= json_encode($item['brand'] ?? '') ?>,
+      "url":<?= json_encode($item['url'] ?? '') ?>
+    }
+    <?php endforeach; ?>
+  ]
+}
+</script>
+<?php endif; ?>
 <?php if(!empty($faq)): ?>
 <script type="application/ld+json">
 {
