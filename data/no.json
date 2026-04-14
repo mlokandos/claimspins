@@ -19,12 +19,9 @@
     "all": "🏠 Alle tilbud",
     "reg": "🎁 Registreringsbonus",
     "bonus": "💰 Bonuser",
-    "free": "🆓 Uten innskudd",
     "slots": "🎰 Spilleautomater",
     "jackpot": "💎 Jackpotter",
-    "live": "🃏 Live casino",
-    "sport": "⚽ Sport",
-    "tourn": "🏆 Turneringer"
+    "sport": "⚽ Sport"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Største Velkomstbonuser",
       "sub": "Topp innskuddsbonuser og gratisspinn"
     },
-    "free": {
-      "label": "🆓 Uten Innskudd",
-      "headline": "Null Risiko, Ekte Gevinster",
-      "sub": "Gratisspinn og bonuser uten innskudd"
-    },
     "slots": {
       "label": "🎰 Spilleautomater",
       "headline": "Spinn & Vinn Umiddelbart",
@@ -52,20 +44,10 @@
       "headline": "Livsforandrende Jackpotter",
       "sub": "Progressive jackpotter verdt millioner"
     },
-    "live": {
-      "label": "🃏 Live Casino",
-      "headline": "Ekte Dealere, Ekte Gevinster",
-      "sub": "Live blackjack, rulett og baccarat"
-    },
     "sport": {
       "label": "⚽ Sport",
       "headline": "Beste Odds, Størst Gevinster",
       "sub": "Fotball, tennis og live betting"
-    },
-    "tourn": {
-      "label": "🏆 Turneringer",
-      "headline": "Konkurer om Store Premier",
-      "sub": "Kasino og sportturneringer"
     },
     "main": {
       "label": "🏠 Generelt",

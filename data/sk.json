@@ -19,12 +19,9 @@
     "all": "🏠 Všetky ponuky",
     "reg": "🎁 Registračný bonus",
     "bonus": "💰 Bonusy",
-    "free": "🆓 Bez vkladu",
     "slots": "🎰 Automaty",
     "jackpot": "💎 Jackpoty",
-    "live": "🃏 Live kasíno",
-    "sport": "⚽ Stávky",
-    "tourn": "🏆 Turnaje"
+    "sport": "⚽ Stávky"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Najväčšie Uvítacie Bonusy",
       "sub": "Najlepšie ponuky vkladu a free spiny"
     },
-    "free": {
-      "label": "🆓 Bez Vkladu",
-      "headline": "Žiadne Riziko, Skutočné Výhry",
-      "sub": "Zatočenia zadarmo a bonusy bez vkladu"
-    },
     "slots": {
       "label": "🎰 Automaty",
       "headline": "Točte a Vyhrajte Hneď",
@@ -52,20 +44,10 @@
       "headline": "Jackpoty Meniace Životy",
       "sub": "Progresívne jackpoty za milióny"
     },
-    "live": {
-      "label": "🃏 Live Kasíno",
-      "headline": "Skutoční Krupiéri, Skutočné Výhry",
-      "sub": "Live blackjack, ruleta a baccarat"
-    },
     "sport": {
       "label": "⚽ Stávky",
       "headline": "Najlepšie Kurzy, Najväčšie Výhry",
       "sub": "Futbal, tenis a živé stávky"
-    },
-    "tourn": {
-      "label": "🏆 Turnaje",
-      "headline": "Súťažte o Veľké Ceny",
-      "sub": "Kasínové a športové turnaje"
     },
     "main": {
       "label": "🏠 Všeobecné",

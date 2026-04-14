@@ -19,12 +19,9 @@
     "all": "🏠 All Offers",
     "reg": "🎁 Registration Bonus",
     "bonus": "💰 Bonuses",
-    "free": "🆓 No Deposit",
     "slots": "🎰 Slots",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Live Casino",
-    "sport": "⚽ Sports",
-    "tourn": "🏆 Tournaments"
+    "sport": "⚽ Sports"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Biggest Welcome Bonuses",
       "sub": "Top deposit match offers and free spins packages"
     },
-    "free": {
-      "label": "🆓 No Deposit",
-      "headline": "No Risk, Real Rewards",
-      "sub": "Free spins and bonuses without any deposit"
-    },
     "slots": {
       "label": "🎰 Slots",
       "headline": "Spin & Win Instantly",
@@ -52,20 +44,10 @@
       "headline": "Life-Changing Jackpots",
       "sub": "Progressive jackpots worth millions"
     },
-    "live": {
-      "label": "🃏 Live Casino",
-      "headline": "Real Dealers, Real Wins",
-      "sub": "Live blackjack, roulette and baccarat"
-    },
     "sport": {
       "label": "⚽ Sports",
       "headline": "Best Odds, Biggest Wins",
       "sub": "Football, tennis and live betting offers"
-    },
-    "tourn": {
-      "label": "🏆 Tournaments",
-      "headline": "Compete for Grand Prizes",
-      "sub": "Casino and sport tournament events"
     },
     "main": {
       "label": "🏠 General",

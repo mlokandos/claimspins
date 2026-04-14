@@ -19,12 +19,9 @@
     "all": "🏠 Alle aanbiedingen",
     "reg": "🎁 Registratiebonus",
     "bonus": "💰 Bonussen",
-    "free": "🆓 Zonder storting",
     "slots": "🎰 Gokkasten",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Live casino",
-    "sport": "⚽ Sport",
-    "tourn": "🏆 Toernooien"
+    "sport": "⚽ Sport"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Grootste Welkomstbonussen",
       "sub": "Top stortingsbonussen en gratis spins"
     },
-    "free": {
-      "label": "🆓 Zonder Storting",
-      "headline": "Geen Risico, Echte Winsten",
-      "sub": "Gratis spins en bonussen zonder storting"
-    },
     "slots": {
       "label": "🎰 Gokkasten",
       "headline": "Draai & Win Direct",
@@ -52,20 +44,10 @@
       "headline": "Levensveranderende Jackpots",
       "sub": "Progressieve jackpots van miljoenen"
     },
-    "live": {
-      "label": "🃏 Live Casino",
-      "headline": "Echte Dealers, Echte Winsten",
-      "sub": "Live blackjack, roulette en baccarat"
-    },
     "sport": {
       "label": "⚽ Sport",
       "headline": "Beste Odds, Grootste Winsten",
       "sub": "Voetbal, tennis en live wedden"
-    },
-    "tourn": {
-      "label": "🏆 Toernooien",
-      "headline": "Strijdt om Grote Prijzen",
-      "sub": "Casino en sporttoernooien"
     },
     "main": {
       "label": "🏠 Algemeen",

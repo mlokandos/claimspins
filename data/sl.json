@@ -19,12 +19,9 @@
     "all": "🏠 Vse ponudbe",
     "reg": "🎁 Registracijski bonus",
     "bonus": "💰 Bonusi",
-    "free": "🆓 Brez depozita",
     "slots": "🎰 Igralni avtomati",
     "jackpot": "💎 Jackpoti",
-    "live": "🃏 Live igralnica",
-    "sport": "⚽ Šport",
-    "tourn": "🏆 Turnirji"
+    "sport": "⚽ Šport"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Največji Dobrodošlični Bonusi",
       "sub": "Najboljše ponudbe depozita in vrtljajev"
     },
-    "free": {
-      "label": "🆓 Brez Depozita",
-      "headline": "Brez Tveganja, Pravi Dobički",
-      "sub": "Brezplačni vrtljaji brez depozita"
-    },
     "slots": {
       "label": "🎰 Avtomati",
       "headline": "Zavrtite in Zmagajte Takoj",
@@ -52,20 +44,10 @@
       "headline": "Jackpoti ki Spreminjajo Življenja",
       "sub": "Progresivni jackpoti vredni milijone"
     },
-    "live": {
-      "label": "🃏 Live Igralnica",
-      "headline": "Pravi Delivci, Pravi Dobički",
-      "sub": "Live blackjack, ruleta in baccarat"
-    },
     "sport": {
       "label": "⚽ Šport",
       "headline": "Najboljše Kvote, Največji Dobički",
       "sub": "Nogomet, tenis in stave v živo"
-    },
-    "tourn": {
-      "label": "🏆 Turnirji",
-      "headline": "Tekmujte za Velike Nagrade",
-      "sub": "Igralniški in športni turnirji"
     },
     "main": {
       "label": "🏠 Splošno",

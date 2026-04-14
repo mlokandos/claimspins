@@ -19,12 +19,9 @@
     "all": "🏠 Toutes les offres",
     "reg": "🎁 Bonus inscription",
     "bonus": "💰 Bonus",
-    "free": "🆓 Sans dépôt",
     "slots": "🎰 Machines à sous",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Casino en direct",
-    "sport": "⚽ Paris sportifs",
-    "tourn": "🏆 Tournois"
+    "sport": "⚽ Paris sportifs"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Les Plus Gros Bonus",
       "sub": "Meilleures offres de dépôt et tours gratuits"
     },
-    "free": {
-      "label": "🆓 Sans Dépôt",
-      "headline": "Zéro Risque, Vrais Gains",
-      "sub": "Tours gratuits et bonus sans aucun dépôt"
-    },
     "slots": {
       "label": "🎰 Machines à sous",
       "headline": "Tournez et Gagnez Gros",
@@ -52,20 +44,10 @@
       "headline": "Jackpots qui Changent la Vie",
       "sub": "Jackpots progressifs valant des millions"
     },
-    "live": {
-      "label": "🃏 Casino en Direct",
-      "headline": "Vrais Croupiers, Vrais Gains",
-      "sub": "Blackjack, roulette et baccarat en direct"
-    },
     "sport": {
       "label": "⚽ Paris Sportifs",
       "headline": "Meilleures Cotes, Plus Gros Gains",
       "sub": "Football, tennis et paris en direct"
-    },
-    "tourn": {
-      "label": "🏆 Tournois",
-      "headline": "Concourez pour les Grands Prix",
-      "sub": "Événements et tournois de casino et sport"
     },
     "main": {
       "label": "🏠 Général",

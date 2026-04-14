@@ -19,12 +19,9 @@
     "all": "🏠 Tutte le offerte",
     "reg": "🎁 Bonus registrazione",
     "bonus": "💰 Bonus",
-    "free": "🆓 Senza deposito",
     "slots": "🎰 Slot",
     "jackpot": "💎 Jackpot",
-    "live": "🃏 Casinò live",
-    "sport": "⚽ Scommesse",
-    "tourn": "🏆 Tornei"
+    "sport": "⚽ Scommesse"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "I Migliori Bonus Benvenuto",
       "sub": "Top offerte deposito e pacchetti giri gratis"
     },
-    "free": {
-      "label": "🆓 Senza Deposito",
-      "headline": "Zero Rischio, Veri Premi",
-      "sub": "Giri gratis e bonus senza deposito"
-    },
     "slots": {
       "label": "🎰 Slot",
       "headline": "Gira e Vinci Subito",
@@ -52,20 +44,10 @@
       "headline": "Jackpot che Cambiano la Vita",
       "sub": "Jackpot progressivi da milioni"
     },
-    "live": {
-      "label": "🃏 Casinò Live",
-      "headline": "Dealer Veri, Vincite Reali",
-      "sub": "Blackjack, roulette e baccarat dal vivo"
-    },
     "sport": {
       "label": "⚽ Scommesse",
       "headline": "Le Migliori Quote Sportive",
       "sub": "Calcio, tennis e scommesse live"
-    },
-    "tourn": {
-      "label": "🏆 Tornei",
-      "headline": "Competi per Grandi Premi",
-      "sub": "Eventi e tornei di casinò e sport"
     },
     "main": {
       "label": "🏠 Generale",

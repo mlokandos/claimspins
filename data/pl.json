@@ -19,12 +19,9 @@
     "all": "🏠 Wszystkie oferty",
     "reg": "🎁 Bonus rejestracyjny",
     "bonus": "💰 Bonusy",
-    "free": "🆓 Bez depozytu",
     "slots": "🎰 Automaty",
     "jackpot": "💎 Jackpoty",
-    "live": "🃏 Live kasyno",
-    "sport": "⚽ Zakłady",
-    "tourn": "🏆 Turnieje"
+    "sport": "⚽ Zakłady"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Największe Bonusy Powitalne",
       "sub": "Najlepsze oferty wpłatowe i pakiety spinów"
     },
-    "free": {
-      "label": "🆓 Bez Depozytu",
-      "headline": "Zero Ryzyka, Prawdziwe Nagrody",
-      "sub": "Darmowe spiny i bonusy bez depozytu"
-    },
     "slots": {
       "label": "🎰 Automaty",
       "headline": "Kręć i Wygrywaj Natychmiast",
@@ -52,20 +44,10 @@
       "headline": "Jackpoty Zmieniające Życie",
       "sub": "Progresywne jackpoty warte miliony"
     },
-    "live": {
-      "label": "🃏 Live Kasyno",
-      "headline": "Prawdziwi Krupierzy, Prawdziwe Wygrane",
-      "sub": "Live blackjack, ruletka i bakarat"
-    },
     "sport": {
       "label": "⚽ Zakłady",
       "headline": "Najlepsze Kursy, Największe Wygrane",
       "sub": "Piłka nożna, tenis i zakłady na żywo"
-    },
-    "tourn": {
-      "label": "🏆 Turnieje",
-      "headline": "Rywalizuj o Wielkie Nagrody",
-      "sub": "Turnieje kasynowe i sportowe"
     },
     "main": {
       "label": "🏠 Ogólne",

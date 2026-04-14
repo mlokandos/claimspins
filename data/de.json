@@ -19,12 +19,9 @@
     "all": "🏠 Alle Angebote",
     "reg": "🎁 Registrierungsbonus",
     "bonus": "💰 Boni",
-    "free": "🆓 Ohne Einzahlung",
     "slots": "🎰 Spielautomaten",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Live Casino",
-    "sport": "⚽ Sportwetten",
-    "tourn": "🏆 Turniere"
+    "sport": "⚽ Sportwetten"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Größte Willkommensboni Sichern",
       "sub": "Top Einzahlungsboni und Freispiel-Pakete"
     },
-    "free": {
-      "label": "🆓 Ohne Einzahlung",
-      "headline": "Kein Risiko, Echte Gewinne",
-      "sub": "Freispiele und Boni ohne Einzahlung"
-    },
     "slots": {
       "label": "🎰 Spielautomaten",
       "headline": "Sofort Spielen & Gewinnen",
@@ -52,20 +44,10 @@
       "headline": "Lebensverändernde Jackpots",
       "sub": "Progressive Jackpots in Millionenhöhe"
     },
-    "live": {
-      "label": "🃏 Live Casino",
-      "headline": "Echte Dealer, Echte Gewinne",
-      "sub": "Live Blackjack, Roulette und Baccarat"
-    },
     "sport": {
       "label": "⚽ Sportwetten",
       "headline": "Beste Quoten, Größte Gewinne",
       "sub": "Fußball, Tennis und Live-Wetten Angebote"
-    },
-    "tourn": {
-      "label": "🏆 Turniere",
-      "headline": "Kämpfe um Große Preise",
-      "sub": "Casino- und Sport-Turnierveranstaltungen"
     },
     "main": {
       "label": "🏠 Allgemein",

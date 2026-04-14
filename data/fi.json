@@ -19,12 +19,9 @@
     "all": "🏠 Kaikki tarjoukset",
     "reg": "🎁 Rekisteröitymisbonus",
     "bonus": "💰 Bonukset",
-    "free": "🆓 Ilman talletusta",
     "slots": "🎰 Kolikkopelit",
     "jackpot": "💎 Jätipotit",
-    "live": "🃏 Live-kasino",
-    "sport": "⚽ Urheilu",
-    "tourn": "🏆 Turnaukset"
+    "sport": "⚽ Urheilu"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Suurimmat Tervetuliaisbonukset",
       "sub": "Parhaat talletusbonukset ja ilmaiskierrokset"
     },
-    "free": {
-      "label": "🆓 Ilman Talletusta",
-      "headline": "Ei Riskiä, Aitoja Voittoja",
-      "sub": "Ilmaiskierroksia ja bonuksia ilman talletusta"
-    },
     "slots": {
       "label": "🎰 Kolikkopelit",
       "headline": "Pyöritä & Voita Heti",
@@ -52,20 +44,10 @@
       "headline": "Elämää Muuttavat Jätipotit",
       "sub": "Progressiiviset jätipotit miljoonien arvosta"
     },
-    "live": {
-      "label": "🃏 Live-Kasino",
-      "headline": "Oikeat Jakajat, Oikeat Voitot",
-      "sub": "Live blackjack, ruletti ja baccarat"
-    },
     "sport": {
       "label": "⚽ Urheilu",
       "headline": "Parhaat Kertoimet, Suurimmat Voitot",
       "sub": "Jalkapallo, tennis ja liveveto"
-    },
-    "tourn": {
-      "label": "🏆 Turnaukset",
-      "headline": "Kilpaile Suurista Palkinnoista",
-      "sub": "Kasino- ja urheiluturnaukset"
     },
     "main": {
       "label": "🏠 Yleistä",

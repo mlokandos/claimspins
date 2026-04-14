@@ -19,12 +19,9 @@
     "all": "🏠 Todas las ofertas",
     "reg": "🎁 Bono registro",
     "bonus": "💰 Bonos",
-    "free": "🆓 Sin depósito",
     "slots": "🎰 Tragamonedas",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Casino en vivo",
-    "sport": "⚽ Apuestas",
-    "tourn": "🏆 Torneos"
+    "sport": "⚽ Apuestas"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Los Mayores Bonos Bienvenida",
       "sub": "Mejores ofertas de depósito y giros gratis"
     },
-    "free": {
-      "label": "🆓 Sin Depósito",
-      "headline": "Sin Riesgo, Premios Reales",
-      "sub": "Giros gratis y bonos sin depositar"
-    },
     "slots": {
       "label": "🎰 Tragamonedas",
       "headline": "Gira y Gana al Instante",
@@ -52,20 +44,10 @@
       "headline": "Jackpots que Cambian Vidas",
       "sub": "Jackpots progresivos de millones"
     },
-    "live": {
-      "label": "🃏 Casino en Vivo",
-      "headline": "Crupieres Reales, Ganancias Reales",
-      "sub": "Blackjack, ruleta y baccarat en vivo"
-    },
     "sport": {
       "label": "⚽ Apuestas",
       "headline": "Mejores Cuotas, Mayores Premios",
       "sub": "Fútbol, tenis y apuestas en vivo"
-    },
-    "tourn": {
-      "label": "🏆 Torneos",
-      "headline": "Compite por Grandes Premios",
-      "sub": "Eventos de casino y torneos deportivos"
     },
     "main": {
       "label": "🏠 General",

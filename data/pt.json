@@ -19,12 +19,9 @@
     "all": "🏠 Todas as ofertas",
     "reg": "🎁 Bônus registro",
     "bonus": "💰 Bônus",
-    "free": "🆓 Sem depósito",
     "slots": "🎰 Caça-níqueis",
     "jackpot": "💎 Jackpots",
-    "live": "🃏 Cassino ao vivo",
-    "sport": "⚽ Apostas",
-    "tourn": "🏆 Torneios"
+    "sport": "⚽ Apostas"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Os Maiores Bônus Boas-Vindas",
       "sub": "Melhores ofertas de depósito e rodadas grátis"
     },
-    "free": {
-      "label": "🆓 Sem Depósito",
-      "headline": "Zero Risco, Prêmios Reais",
-      "sub": "Rodadas grátis e bônus sem depósito"
-    },
     "slots": {
       "label": "🎰 Caça-Níqueis",
       "headline": "Gire e Ganhe Instantaneamente",
@@ -52,20 +44,10 @@
       "headline": "Jackpots que Mudam Vidas",
       "sub": "Jackpots progressivos de milhões"
     },
-    "live": {
-      "label": "🃏 Cassino ao Vivo",
-      "headline": "Dealers Reais, Ganhos Reais",
-      "sub": "Blackjack, roleta e bacará ao vivo"
-    },
     "sport": {
       "label": "⚽ Apostas",
       "headline": "Melhores Odds, Maiores Ganhos",
       "sub": "Futebol, tênis e apostas ao vivo"
-    },
-    "tourn": {
-      "label": "🏆 Torneios",
-      "headline": "Compita por Grandes Prêmios",
-      "sub": "Eventos de cassino e torneios esportivos"
     },
     "main": {
       "label": "🏠 Geral",

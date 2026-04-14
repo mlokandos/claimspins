@@ -19,12 +19,9 @@
     "all": "🏠 Összes ajánlat",
     "reg": "🎁 Regisztrációs bónusz",
     "bonus": "💰 Bónuszok",
-    "free": "🆓 Befizetés nélkül",
     "slots": "🎰 Nyerőgépek",
     "jackpot": "💎 Jackpotok",
-    "live": "🃏 Élő kaszinó",
-    "sport": "⚽ Sport",
-    "tourn": "🏆 Versenyek"
+    "sport": "⚽ Sport"
   },
   "categories": {
     "reg": {
@@ -37,11 +34,6 @@
       "headline": "Legnagyobb Üdvözlő Bónuszok",
       "sub": "Legjobb befizetési ajánlatok és spinek"
     },
-    "free": {
-      "label": "🆓 Befizetés Nélkül",
-      "headline": "Nulla Kockázat, Valódi Nyeremények",
-      "sub": "Ingyenes pörgetések befizetés nélkül"
-    },
     "slots": {
       "label": "🎰 Nyerőgépek",
       "headline": "Pörgets és Nyerj Azonnal",
@@ -52,20 +44,10 @@
       "headline": "Életváltoztató Jackpotok",
       "sub": "Milliós progresszív jackpotok"
     },
-    "live": {
-      "label": "🃏 Élő Kaszinó",
-      "headline": "Igazi Osztók, Igazi Nyeremények",
-      "sub": "Élő blackjack, rulett és baccarat"
-    },
     "sport": {
       "label": "⚽ Sport",
       "headline": "Legjobb Szorzók, Legnagyobb Nyeremények",
       "sub": "Futball, tenisz és élő fogadások"
-    },
-    "tourn": {
-      "label": "🏆 Versenyek",
-      "headline": "Versenyezz Nagy Nyereményekért",
-      "sub": "Kaszinó és sport versenyek"
     },
     "main": {
       "label": "🏠 Általános",
