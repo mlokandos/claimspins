@@ -107,9 +107,17 @@ $totalSpins  = array_sum(array_column($affs,'free_spins'));
 <meta property="og:image" content="<?= e($meta['og_image'] ?? '') ?>">
 <meta property="og:site_name" content="<?= e($meta['site_name'] ?? 'ClaimSpins') ?>">
 <meta name="twitter:card" content="summary_large_image">
+<!-- Favicon -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- Resource hints -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<!-- Google Fonts — loaded async to avoid render-blocking -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@400;700;800&display=swap"></noscript>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -448,15 +456,6 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
   .links-grid{grid-template-columns:repeat(2,1fr)}
 }
 </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEV90PCXTW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KEV90PCXTW');
-</script>
 </head>
 <body>
 
@@ -866,6 +865,14 @@ document.getElementById('scb-close-btn')?.addEventListener('click',()=>{
 });
 
 </script>
-<!-- v2.1-categories | <?= date('Y-m-d') ?> -->
+<!-- Google Analytics — deferred to end of body for faster FCP -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEV90PCXTW"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','G-KEV90PCXTW',{send_page_view:true});
+</script>
+<!-- v2.2-perf | <?= date('Y-m-d') ?> -->
 </body>
 </html>
