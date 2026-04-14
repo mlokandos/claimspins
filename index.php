@@ -18,6 +18,41 @@ $faq     = $raw['faq']        ?? [];
 $footer  = $raw['footer']     ?? [];
 $blogs   = $raw['blogs']      ?? [];
 
+// Scan blog posts from filesystem for "Latest Posts" section
+$BLOG_DIR_IDX = __DIR__ . '/blog/';
+$latestPosts  = [];
+if (is_dir($BLOG_DIR_IDX)) {
+    foreach (glob($BLOG_DIR_IDX . '*/index.html') as $file) {
+        $slug = basename(dirname($file));
+        $fh   = fopen($file, 'r');
+        $chunk = fread($fh, 3200);
+        fclose($fh);
+        preg_match('/<html[^>]+lang=["\']([^"\']+)["\']/', $chunk, $lm);
+        $postLang = substr($lm[1] ?? 'en', 0, 2);
+        preg_match('/<title>([^<]+)<\/title>/i', $chunk, $tm);
+        $title = preg_replace('/\s*[|—–]\s*ClaimSpins.*$/ui', '', trim($tm[1] ?? $slug));
+        preg_match('/"datePublished"\s*:\s*"([^"]+)"/', $chunk, $dm);
+        $date = $dm[1] ?? '2026-01-01';
+        preg_match('/<meta\s+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']/', $chunk, $em);
+        if (empty($em[1])) preg_match('/<meta\s+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']/', $chunk, $em);
+        $rawEx  = trim($em[1] ?? '');
+        $excerpt = mb_strlen($rawEx) > 115 ? mb_substr($rawEx, 0, 115) . '…' : $rawEx;
+        $latestPosts[] = [
+            'slug'    => $slug,
+            'lang'    => $postLang,
+            'title'   => $title,
+            'date'    => $date,
+            'excerpt' => $excerpt,
+            'url'     => $BASE_DOMAIN . '/blog/' . $slug . '/',
+        ];
+    }
+    usort($latestPosts, fn($a, $b) => strcmp($b['date'], $a['date']));
+    $filtered    = array_values(array_filter($latestPosts, fn($p) => $p['lang'] === substr($lang, 0, 2)));
+    $blogDisplay = array_slice(count($filtered) >= 3 ? $filtered : array_values($latestPosts), 0, 6);
+} else {
+    $blogDisplay = [];
+}
+
 // Available languages for hreflang
 $availLangs = [];
 foreach (glob($DATA_DIR . '*.json') as $f) {
@@ -44,6 +79,7 @@ function stars($r){
 $topAffs = array_merge($byCat['reg']??[], $byCat['bonus']??[]);
 usort($topAffs, fn($a,$b) => ($b['rating']??0) <=> ($a['rating']??0));
 $top = $topAffs[0] ?? ($affs[0] ?? []);
+$trustYears = date('Y') - 2020;
 
 $canonical   = $BASE_DOMAIN.'/'.$lang.'/';
 $currentYear = date('Y');
@@ -173,6 +209,7 @@ $totalSpins  = array_sum(array_column($affs,'free_spins'));
   --gold:#e8b84b;--gold2:#f5cc6a;--gold-glow:rgba(232,184,75,0.12);
   --plat:#c8d0e0;--white:#f0f2f8;--green:#00d68f;--red:#ff4757;
   --border:rgba(232,184,75,0.12);--border-hi:rgba(232,184,75,0.35);
+  --banner-h:44px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -189,8 +226,20 @@ img{max-width:100%;display:block}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 @keyframes particleDrift{0%{transform:translate(0,0);opacity:0.3}25%{opacity:0.8}50%{transform:translate(var(--dx),var(--dy));opacity:0.4}75%{opacity:0.7}100%{transform:translate(0,0);opacity:0.3}}
 
+/* STICKY CTA BANNER */
+.sticky-cta-bar{position:sticky;top:0;z-index:110;height:var(--banner-h);background:linear-gradient(90deg,#0e0e1a,#161625,#0e0e1a);border-bottom:1px solid rgba(232,184,75,0.25);display:flex;align-items:center;justify-content:center;gap:.75rem;padding:0 3rem 0 1.5rem;overflow:hidden;transition:height .25s}
+.sticky-cta-bar.hidden{height:0;border:none;overflow:hidden;pointer-events:none}
+.scb-icon{font-size:.85rem;flex-shrink:0}
+.scb-text{font-size:.78rem;color:var(--plat);white-space:nowrap;flex-shrink:0}
+.scb-text strong{color:var(--white)}
+.scb-sep{color:rgba(232,184,75,.3);flex-shrink:0;font-size:.75rem}
+.scb-btn{font-family:'Syne',sans-serif;font-weight:700;font-size:.72rem;background:linear-gradient(135deg,var(--gold),#c8922a);color:var(--void);padding:.3rem .85rem;border-radius:7px;border:none;cursor:pointer;white-space:nowrap;text-decoration:none;transition:transform .15s;flex-shrink:0}
+.scb-btn:hover{transform:scale(1.05)}
+.scb-close{position:absolute;right:.75rem;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--plat);font-size:.9rem;cursor:pointer;opacity:.4;padding:4px 8px;line-height:1}
+.scb-close:hover{opacity:.8}
+
 /* HEADER */
-header{position:sticky;top:0;z-index:100;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;background:rgba(7,7,15,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid transparent;transition:border-color 0.3s,background 0.3s}
+header{position:sticky;top:var(--banner-h,0px);z-index:100;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;background:rgba(7,7,15,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid transparent;transition:border-color 0.3s,background 0.3s}
 header.scrolled{border-bottom-color:var(--border);background:rgba(7,7,15,0.95)}
 .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.15rem;color:var(--gold);display:flex;align-items:center;gap:0.4rem;white-space:nowrap}
 .logo span{color:var(--plat);font-weight:400;font-size:0.7rem;opacity:0.5;text-transform:uppercase;letter-spacing:1px}
@@ -231,8 +280,27 @@ header.scrolled{border-bottom-color:var(--border);background:rgba(7,7,15,0.95)}
 .trust-item{display:flex;align-items:center;gap:0.5rem;white-space:nowrap;font-size:0.8rem;color:var(--plat);opacity:0.7}
 .trust-item strong{color:var(--gold);font-weight:700}
 
+/* TRUST BADGES */
+.trust-badges{display:flex;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--deep);overflow:hidden}
+.tb-item{flex:1;padding:1.1rem .75rem;text-align:center;border-right:1px solid var(--border)}
+.tb-item:last-child{border-right:none}
+.tb-num{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(1.3rem,3vw,1.8rem);color:var(--gold);display:block;margin-bottom:.15rem}
+.tb-label{font-size:.68rem;color:var(--plat);opacity:.55;text-transform:uppercase;letter-spacing:.5px}
+
+/* WHY TRUST */
+.why-trust{padding:3.5rem 0;background:var(--deep);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.why-trust-h{text-align:center;margin-bottom:2rem}
+.why-trust-h h2{font-size:clamp(1.2rem,3vw,1.8rem);font-weight:700}
+.why-trust-h h2 .g{color:var(--gold)}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.why-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.25rem;text-align:center;transition:border-color .2s,transform .2s}
+.why-card:hover{border-color:var(--border-hi);transform:translateY(-3px)}
+.why-icon{font-size:1.75rem;margin-bottom:.75rem;display:block}
+.why-title{font-family:'Syne',sans-serif;font-weight:700;font-size:.88rem;color:var(--white);margin-bottom:.4rem}
+.why-desc{font-size:.76rem;color:var(--plat);opacity:.6;line-height:1.55}
+
 /* CATEGORY NAV MOBILE */
-.cat-nav-mobile{display:none;position:sticky;top:64px;z-index:90;background:rgba(7,7,15,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0.5rem 1rem;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory}
+.cat-nav-mobile{display:none;position:sticky;top:calc(var(--banner-h,0px) + 64px);z-index:90;background:rgba(7,7,15,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0.5rem 1rem;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory}
 .cat-nav-mobile::-webkit-scrollbar{display:none}
 .cat-nav-mobile .cat-tab{font-size:0.7rem;padding:0.4rem 0.7rem}
 
@@ -365,6 +433,16 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
   .trust-strip{gap:1.25rem;padding:1rem;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
   .header-cta{padding:0.35rem 0.75rem;font-size:0.7rem}
   .blog-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .sticky-cta-bar .scb-text:nth-child(3){display:none}
+  .sticky-cta-bar .scb-sep{display:none}
+}
+@media(max-width:420px){
+  .why-grid{grid-template-columns:1fr}
+  .trust-badges{flex-wrap:wrap}
+  .tb-item{flex:1 0 48%;border-right:none;border-bottom:1px solid var(--border)}
+  .tb-item:nth-child(odd){border-right:1px solid var(--border)}
+  .sticky-cta-bar .scb-text{display:none}
 }
 @media(min-width:769px) and (max-width:1024px){
   .links-grid{grid-template-columns:repeat(2,1fr)}
@@ -381,6 +459,16 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
 </script>
 </head>
 <body>
+
+<!-- STICKY CTA BANNER -->
+<div class="sticky-cta-bar" id="sticky-cta">
+  <span class="scb-icon">🏆</span>
+  <span class="scb-text"><strong>#1 Pick: Casinia</strong></span>
+  <span class="scb-sep">·</span>
+  <span class="scb-text">100% up to <strong>€500 + 200 Free Spins</strong></span>
+  <a href="https://9867-cas1nia.com/en/promotions/casino/welcome-bonus" rel="nofollow sponsored" target="_blank" class="scb-btn">🎁 Claim Now →</a>
+  <button class="scb-close" id="scb-close-btn" aria-label="Close banner">✕</button>
+</div>
 
 <!-- HEADER -->
 <header>
@@ -444,6 +532,26 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
   </div>
 </section>
 
+<!-- TRUST BADGES -->
+<div class="trust-badges">
+  <div class="tb-item">
+    <span class="tb-num counter" data-target="<?= $totalLinks ?>"><?= $totalLinks ?>+</span>
+    <span class="tb-label">Casinos Reviewed</span>
+  </div>
+  <div class="tb-item">
+    <span class="tb-num"><?= count($availLangs) ?></span>
+    <span class="tb-label">Languages</span>
+  </div>
+  <div class="tb-item">
+    <span class="tb-num"><?= $trustYears ?>+</span>
+    <span class="tb-label">Years Experience</span>
+  </div>
+  <div class="tb-item">
+    <span class="tb-num">100%</span>
+    <span class="tb-label">Free to Use</span>
+  </div>
+</div>
+
 <!-- TRUST STRIP -->
 <?php if(!empty($trust)): ?>
 <div class="trust-strip">
@@ -499,6 +607,35 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
   </div>
 </section>
 <?php endif; ?>
+
+<!-- WHY TRUST -->
+<section class="why-trust">
+  <div class="why-trust-h">
+    <h2>Why Trust <span class="g">ClaimSpins</span></h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-icon">🛡️</span>
+      <div class="why-title">Licensed Casinos Only</div>
+      <div class="why-desc">Every listed casino holds a valid MGA, UKGC, or Curaçao license — verified before publication.</div>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🔄</span>
+      <div class="why-title">Updated Weekly</div>
+      <div class="why-desc">Bonus amounts, promo codes, and free spin counts are refreshed every week — always current.</div>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🏆</span>
+      <div class="why-title">Expert Reviews</div>
+      <div class="why-desc">Each casino is hands-on tested for game selection, support quality, and fair bonus terms.</div>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">⚡</span>
+      <div class="why-title">Fast Payouts</div>
+      <div class="why-desc">We prioritize casinos with swift withdrawals — most listed operators process within 24 hours.</div>
+    </div>
+  </div>
+</section>
 
 <!-- AFFILIATE CARDS GRID -->
 <div class="container">
@@ -612,19 +749,17 @@ footer p{font-size:0.75rem;color:var(--plat);opacity:0.4;line-height:1.7;margin-
 </section>
 <?php endif; ?>
 
-<!-- BLOG -->
-<?php if(!empty($blogs)): ?>
+<!-- LATEST BLOG POSTS -->
+<?php if(!empty($blogDisplay)): ?>
 <section class="blog-section" id="blog">
   <h2><?= e($meta['blog_title'] ?? 'Latest Articles') ?></h2>
   <div class="blog-grid">
-    <?php foreach($blogs as $bi => $b): ?>
+    <?php foreach($blogDisplay as $bi => $b): ?>
     <div class="blog-card" style="animation-delay:<?= $bi*0.08 ?>s">
-      <h3><?= e($b['title'] ?? '') ?></h3>
-      <div class="blog-date"><?= e($b['date'] ?? '') ?></div>
-      <p><?= e($b['excerpt'] ?? '') ?></p>
-      <?php if(!empty($b['url'])): ?>
+      <h3><?= e($b['title']) ?></h3>
+      <div class="blog-date"><?= e($b['date']) ?></div>
+      <p><?= e($b['excerpt']) ?></p>
       <a href="<?= e($b['url']) ?>">Read more →</a>
-      <?php endif; ?>
     </div>
     <?php endforeach; ?>
   </div>
@@ -717,6 +852,17 @@ if(localStorage.getItem('ck'))document.getElementById('cookie-banner').style.dis
 document.getElementById('cookie-ok')?.addEventListener('click',()=>{
   localStorage.setItem('ck','1');
   document.getElementById('cookie-banner').style.display='none';
+});
+
+// Sticky CTA banner dismiss
+if(sessionStorage.getItem('scb_dismissed')){
+  const b=document.getElementById('sticky-cta');
+  if(b){b.classList.add('hidden');document.documentElement.style.setProperty('--banner-h','0px');}
+}
+document.getElementById('scb-close-btn')?.addEventListener('click',()=>{
+  const b=document.getElementById('sticky-cta');
+  if(b){b.classList.add('hidden');document.documentElement.style.setProperty('--banner-h','0px');}
+  sessionStorage.setItem('scb_dismissed','1');
 });
 
 </script>

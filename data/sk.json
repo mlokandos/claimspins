@@ -1,616 +1,616 @@
 {
-    "meta": {
-        "lang": "sk",
-        "title": "Najlepšie Casino Bonusy & Zatočenia Zadarmo 2026",
-        "description": "Porovnajte najlepšie bonusy online kasín 2026. Zatočenia zadarmo bez vkladu, promo kódy a uvítacie bonusy. Získajte bonus!",
-        "keywords": "online kasíno, casino bonus, zatočenia zadarmo, bez vkladu, promo kód, uvítací bonus, skutočné peniaze, kasíno 2026",
-        "h1": "Najlepšie Casino Bonusy 2026",
-        "subtitle": "Objavte exkluzívne bonusy až do €600 a 200 zatočení zadarmo. Ponuky bez vkladu — začnite vyhrávať!",
-        "updated": "2026-04-06"
+  "meta": {
+    "lang": "sk",
+    "title": "Najlepšie Casino Bonusy & Zatočenia Zadarmo 2026",
+    "description": "Najlepšie bonusy online kasín 2026 — zatočenia zadarmo bez vkladu, promo kódy & uvítacie bonusy až €500. Overené expertmi. Získajte bonus hneď!",
+    "keywords": "online kasíno, casino bonus, zatočenia zadarmo, bez vkladu, promo kód, uvítací bonus, skutočné peniaze, kasíno 2026",
+    "h1": "Najlepšie Casino Bonusy 2026",
+    "subtitle": "Objavte exkluzívne bonusy až do €600 a 200 zatočení zadarmo. Ponuky bez vkladu — začnite vyhrávať!",
+    "updated": "2026-04-06"
+  },
+  "trust": [
+    "🔒 Licencované kasína",
+    "⚡ Rýchle výplaty zaručené",
+    "📱 Mobilné kasíno",
+    "🎁 Bonus bez vkladu",
+    "✅ Overené expertmi"
+  ],
+  "nav": {
+    "all": "🏠 Všetky ponuky",
+    "reg": "🎁 Registračný bonus",
+    "bonus": "💰 Bonusy",
+    "free": "🆓 Bez vkladu",
+    "slots": "🎰 Automaty",
+    "jackpot": "💎 Jackpoty",
+    "live": "🃏 Live kasíno",
+    "sport": "⚽ Stávky",
+    "tourn": "🏆 Turnaje"
+  },
+  "categories": {
+    "reg": {
+      "label": "🎁 Registrácia",
+      "headline": "Zaregistrujte sa a Získajte",
+      "sub": "Rýchla registrácia s okamžitými odmenami"
     },
-    "trust": [
-        "🔒 Licencované kasína",
-        "⚡ Rýchle výplaty zaručené",
-        "📱 Mobilné kasíno",
-        "🎁 Bonus bez vkladu",
-        "✅ Overené expertmi"
-    ],
-    "nav": {
-        "all": "🏠 Všetky ponuky",
-        "reg": "🎁 Registračný bonus",
-        "bonus": "💰 Bonusy",
-        "free": "🆓 Bez vkladu",
-        "slots": "🎰 Automaty",
-        "jackpot": "💎 Jackpoty",
-        "live": "🃏 Live kasíno",
-        "sport": "⚽ Stávky",
-        "tourn": "🏆 Turnaje"
+    "bonus": {
+      "label": "💰 Bonusy",
+      "headline": "Najväčšie Uvítacie Bonusy",
+      "sub": "Najlepšie ponuky vkladu a free spiny"
     },
-    "categories": {
-        "reg": {
-            "label": "🎁 Registrácia",
-            "headline": "Zaregistrujte sa a Získajte",
-            "sub": "Rýchla registrácia s okamžitými odmenami"
-        },
-        "bonus": {
-            "label": "💰 Bonusy",
-            "headline": "Najväčšie Uvítacie Bonusy",
-            "sub": "Najlepšie ponuky vkladu a free spiny"
-        },
-        "free": {
-            "label": "🆓 Bez Vkladu",
-            "headline": "Žiadne Riziko, Skutočné Výhry",
-            "sub": "Zatočenia zadarmo a bonusy bez vkladu"
-        },
-        "slots": {
-            "label": "🎰 Automaty",
-            "headline": "Točte a Vyhrajte Hneď",
-            "sub": "Najlepšie automaty s vysokým RTP"
-        },
-        "jackpot": {
-            "label": "💎 Jackpoty",
-            "headline": "Jackpoty Meniace Životy",
-            "sub": "Progresívne jackpoty za milióny"
-        },
-        "live": {
-            "label": "🃏 Live Kasíno",
-            "headline": "Skutoční Krupiéri, Skutočné Výhry",
-            "sub": "Live blackjack, ruleta a baccarat"
-        },
-        "sport": {
-            "label": "⚽ Stávky",
-            "headline": "Najlepšie Kurzy, Najväčšie Výhry",
-            "sub": "Futbal, tenis a živé stávky"
-        },
-        "tourn": {
-            "label": "🏆 Turnaje",
-            "headline": "Súťažte o Veľké Ceny",
-            "sub": "Kasínové a športové turnaje"
-        },
-        "main": {
-            "label": "🏠 Všeobecné",
-            "headline": "Objavte Najlepšie Kasína",
-            "sub": "Hlavná stránka, pravidlá a informácie"
-        }
+    "free": {
+      "label": "🆓 Bez Vkladu",
+      "headline": "Žiadne Riziko, Skutočné Výhry",
+      "sub": "Zatočenia zadarmo a bonusy bez vkladu"
     },
-    "affiliates": [
-        {
-            "id": 71347,
-            "name": "Rabona Fast Registration GEO",
-            "brand": "Rabona",
-            "url": "https://1rab0n101.com/fast-registration",
-            "category": "reg",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 20,
-            "wagering": "35x",
-            "rating": 4.6,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Fast Registration",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Join Rabona — fast & easy registration"
-        },
-        {
-            "id": 71344,
-            "name": "Rabona Fast Registration TH",
-            "brand": "Rabona",
-            "url": "https://ksfjdjffg86.com/th/fast-registration",
-            "category": "reg",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 20,
-            "wagering": "35x",
-            "rating": 4.6,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Fast Registration",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Join Rabona — fast & easy registration"
-        },
-        {
-            "id": 71336,
-            "name": "Rabona Fast Registration SK",
-            "brand": "Rabona",
-            "url": "https://ksfjdjffg86.com/sk/fast-registration",
-            "category": "reg",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 20,
-            "wagering": "35x",
-            "rating": 4.6,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Fast Registration",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Join Rabona — fast & easy registration"
-        },
-        {
-            "id": 70901,
-            "name": "OnlySpins Bonus Wheel SK",
-            "brand": "OnlySpins",
-            "url": "https://onspn02cm.lpmediastorage.com/sk?mid=",
-            "category": "main",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Bonus Wheel",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Explore OnlySpins — games & bonuses"
-        },
-        {
-            "id": 70774,
-            "name": "Nomini Wonderpot GEO",
-            "brand": "Nomini",
-            "url": "https://n0m1n1-100.com/jackpots/progressive-jackpot",
-            "category": "jackpot",
-            "product": "Casino",
-            "bonus": "150% up to €400 + 150 Free Spins",
-            "bonus_amount": 400,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.5,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Progressive Jackpot",
-                "Big Wins",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "One spin could change everything at Nomini"
-        },
-        {
-            "id": 70772,
-            "name": "Bassbet Wonderpot GEO",
-            "brand": "BassBet",
-            "url": "https://bassbt100.com/jackpots/progressive-jackpot",
-            "category": "jackpot",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.2,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Progressive Jackpot",
-                "Big Wins",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "One spin could change everything at BassBet"
-        },
-        {
-            "id": 70770,
-            "name": "Rabona Wonderpot GEO",
-            "brand": "Rabona",
-            "url": "https://4rmobidf.com/jackpots/progressive-jackpot",
-            "category": "jackpot",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 20,
-            "wagering": "35x",
-            "rating": 4.6,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Progressive Jackpot",
-                "Big Wins",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "One spin could change everything at Rabona"
-        },
-        {
-            "id": 70768,
-            "name": "Spinanga Wonderpot GEO",
-            "brand": "Spinanga",
-            "url": "https://spinang49.com/jackpots/progressive-jackpot",
-            "category": "jackpot",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 100 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 100,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Progressive Jackpot",
-                "Big Wins",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "One spin could change everything at Spinanga"
-        },
-        {
-            "id": 70765,
-            "name": "Casinia Wonderpot GEO",
-            "brand": "Casinia",
-            "url": "https://cas1nia.com/jackpots/progressive-jackpot",
-            "category": "jackpot",
-            "product": "Casino",
-            "bonus": "100% up to €500 + 200 Free Spins",
-            "bonus_amount": 500,
-            "free_spins": 200,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "40x",
-            "rating": 4.7,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Progressive Jackpot",
-                "Big Wins",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "One spin could change everything at Casinia"
-        },
-        {
-            "id": 70059,
-            "name": "OnlySpins Mine Slot GEO",
-            "brand": "OnlySpins",
-            "url": "https://on1ysp1ns-100.com/game/mine-slot-v1",
-            "category": "slots",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Mine Slot",
-                "Slot Games",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Play & win big on OnlySpins"
-        },
-        {
-            "id": 70008,
-            "name": "OnlySpins TR crypto welcome offer",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/promotions/casino/welcome_crypto_offer",
-            "category": "bonus",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Crypto Welcome",
-                "Free Spins",
-                "Fast Payouts"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Grab your bonus at OnlySpins now"
-        },
-        {
-            "id": 69904,
-            "name": "OnlySpins GEO",
-            "brand": "OnlySpins",
-            "url": "https://on1ysp1ns-100.com",
-            "category": "main",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Welcome Bonus",
-                "Free Spins",
-                "Casino Games"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Explore OnlySpins — games & bonuses"
-        },
-        {
-            "id": 69898,
-            "name": "OnlySpins Slot Chicken Road TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/game/chicken-road-v2",
-            "category": "slots",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Chicken Road",
-                "Slot Games",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Play & win big on OnlySpins"
-        },
-        {
-            "id": 69897,
-            "name": "OnlySpins Slot Sweet Bonanza TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/game/sweet-bonanza",
-            "category": "slots",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Sweet Bonanza",
-                "Slot Games",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Play & win big on OnlySpins"
-        },
-        {
-            "id": 69896,
-            "name": "OnlySpins Slot Gates of Olympus TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/game/gates-of-olympus-super-scatter-v1",
-            "category": "slots",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Gates of Olympus",
-                "Slot Games",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Play & win big on OnlySpins"
-        },
-        {
-            "id": 69895,
-            "name": "OnlySpins Welcome Bonus TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/promotions/casino/welcome-bonus",
-            "category": "bonus",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Welcome Bonus",
-                "Free Spins",
-                "Casino Games"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Grab your bonus at OnlySpins now"
-        },
-        {
-            "id": 69894,
-            "name": "OnlySpins Sportpage TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/sport",
-            "category": "sport",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Sports Betting",
-                "Casino Games",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "OnlySpins sports — bet & win big"
-        },
-        {
-            "id": 69892,
-            "name": "OnlySpins Casinopage TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/games",
-            "category": "slots",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Casino Games",
-                "Slots",
-                "Welcome Bonus"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Play & win big on OnlySpins"
-        },
-        {
-            "id": 69891,
-            "name": "OnlySpins Registration TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/registration",
-            "category": "reg",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Fast Registration",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Join OnlySpins — fast & easy registration"
-        },
-        {
-            "id": 69890,
-            "name": "OnlySpins Homepage TR",
-            "brand": "OnlySpins",
-            "url": "https://2onlspns1.com/tr/",
-            "category": "main",
-            "product": "Casino",
-            "bonus": "100% up to €300 + 150 Free Spins",
-            "bonus_amount": 300,
-            "free_spins": 150,
-            "no_deposit_spins": 0,
-            "no_deposit_code": "",
-            "promo_code": "",
-            "min_deposit": 10,
-            "wagering": "35x",
-            "rating": 4.3,
-            "license": "Curacao eGaming",
-            "highlights": [
-                "Casino Games",
-                "Welcome Bonus",
-                "Free Spins"
-            ],
-            "cta_text": "Claim Now",
-            "card_headline": "Explore OnlySpins — games & bonuses"
-        }
-    ],
-    "seo_text": {
-        "about_h2": "Váš sprievodca najlepšími casino bonusmi 2026",
-        "about_p1": "Vitajte na najlepšej platforme pre vyhľadávanie bonusov online kasín. Porovnávame stovky ponúk z licencovaných kasín a prinášame exkluzívne uvítacie bonusy a promo kódy.",
-        "about_p2": "Každé kasíno má platnú licenciu od Malta Gaming Authority (MGA) alebo Curacao eGaming. Overujeme bezpečnostné opatrenia a doby výplat.",
-        "about_p3": "Pochopenie podmienok pretočenia je kľúčové. 35x wagering znamená staviť 35-krát bonus. Navštívte <a href=\"#bonus\">sekciu bonusov</a> alebo preskúmajte <a href=\"#free\">ponuky bez vkladu</a>."
+    "slots": {
+      "label": "🎰 Automaty",
+      "headline": "Točte a Vyhrajte Hneď",
+      "sub": "Najlepšie automaty s vysokým RTP"
     },
-    "faq": [
-        {
-            "q": "Aký je najlepší casino bonus 2026?",
-            "a": "Najlepšie bonusy ponúkajú až €600 s 200 zatočeniami zadarmo. Casinia ponúka 100% do €500 s MGA licenciou."
-        },
-        {
-            "q": "Ako použiť promo kód?",
-            "a": "Skopírujte kód (napr. RABONA20) a vložte pri registrácii alebo v pokladni."
-        },
-        {
-            "q": "Čo znamená podmienka pretočenia?",
-            "a": "35x pretočenie znamená staviť 35-krát bonus pred výberom."
-        },
-        {
-            "q": "Sú tieto kasína bezpečné?",
-            "a": "Áno, všetky majú licencie MGA alebo Curacao eGaming s SSL šifrovaním."
-        },
-        {
-            "q": "Ako rýchlo môžem vybrať výhry?",
-            "a": "E-peňaženky do 24 hodín, bankové prevody 2-5 pracovných dní."
-        },
-        {
-            "q": "Môžem hrať na mobile?",
-            "a": "Samozrejme! Všetky kasína sú optimalizované pre mobilné hranie."
-        }
-    ],
-    "footer": {
-        "disclaimer_18": "18+ Len pre dospelých. Hazardné hry môžu byť návykové. Hrajte zodpovedne.",
-        "affiliate_disclosure": "Tento web obsahuje affiliate odkazy. Môžeme získať províziu bez nákladov pre vás.",
-        "responsible_gambling": "Ak sa gambling stane problémom, vyhľadajte pomoc. GamCare (www.gamcare.org.uk)."
+    "jackpot": {
+      "label": "💎 Jackpoty",
+      "headline": "Jackpoty Meniace Životy",
+      "sub": "Progresívne jackpoty za milióny"
     },
-    "blogs": []
+    "live": {
+      "label": "🃏 Live Kasíno",
+      "headline": "Skutoční Krupiéri, Skutočné Výhry",
+      "sub": "Live blackjack, ruleta a baccarat"
+    },
+    "sport": {
+      "label": "⚽ Stávky",
+      "headline": "Najlepšie Kurzy, Najväčšie Výhry",
+      "sub": "Futbal, tenis a živé stávky"
+    },
+    "tourn": {
+      "label": "🏆 Turnaje",
+      "headline": "Súťažte o Veľké Ceny",
+      "sub": "Kasínové a športové turnaje"
+    },
+    "main": {
+      "label": "🏠 Všeobecné",
+      "headline": "Objavte Najlepšie Kasína",
+      "sub": "Hlavná stránka, pravidlá a informácie"
+    }
+  },
+  "affiliates": [
+    {
+      "id": 71347,
+      "name": "Rabona Fast Registration GEO",
+      "brand": "Rabona",
+      "url": "https://1rab0n101.com/fast-registration",
+      "category": "reg",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 20,
+      "wagering": "35x",
+      "rating": 4.6,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Fast Registration",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Join Rabona — fast & easy registration"
+    },
+    {
+      "id": 71344,
+      "name": "Rabona Fast Registration TH",
+      "brand": "Rabona",
+      "url": "https://ksfjdjffg86.com/th/fast-registration",
+      "category": "reg",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 20,
+      "wagering": "35x",
+      "rating": 4.6,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Fast Registration",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Join Rabona — fast & easy registration"
+    },
+    {
+      "id": 71336,
+      "name": "Rabona Fast Registration SK",
+      "brand": "Rabona",
+      "url": "https://ksfjdjffg86.com/sk/fast-registration",
+      "category": "reg",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 20,
+      "wagering": "35x",
+      "rating": 4.6,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Fast Registration",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Join Rabona — fast & easy registration"
+    },
+    {
+      "id": 70901,
+      "name": "OnlySpins Bonus Wheel SK",
+      "brand": "OnlySpins",
+      "url": "https://onspn02cm.lpmediastorage.com/sk?mid=",
+      "category": "main",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Bonus Wheel",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Explore OnlySpins — games & bonuses"
+    },
+    {
+      "id": 70774,
+      "name": "Nomini Wonderpot GEO",
+      "brand": "Nomini",
+      "url": "https://n0m1n1-100.com/jackpots/progressive-jackpot",
+      "category": "jackpot",
+      "product": "Casino",
+      "bonus": "150% up to €400 + 150 Free Spins",
+      "bonus_amount": 400,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.5,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Progressive Jackpot",
+        "Big Wins",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "One spin could change everything at Nomini"
+    },
+    {
+      "id": 70772,
+      "name": "Bassbet Wonderpot GEO",
+      "brand": "BassBet",
+      "url": "https://bassbt100.com/jackpots/progressive-jackpot",
+      "category": "jackpot",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.2,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Progressive Jackpot",
+        "Big Wins",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "One spin could change everything at BassBet"
+    },
+    {
+      "id": 70770,
+      "name": "Rabona Wonderpot GEO",
+      "brand": "Rabona",
+      "url": "https://4rmobidf.com/jackpots/progressive-jackpot",
+      "category": "jackpot",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 20,
+      "wagering": "35x",
+      "rating": 4.6,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Progressive Jackpot",
+        "Big Wins",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "One spin could change everything at Rabona"
+    },
+    {
+      "id": 70768,
+      "name": "Spinanga Wonderpot GEO",
+      "brand": "Spinanga",
+      "url": "https://spinang49.com/jackpots/progressive-jackpot",
+      "category": "jackpot",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 100 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 100,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Progressive Jackpot",
+        "Big Wins",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "One spin could change everything at Spinanga"
+    },
+    {
+      "id": 70765,
+      "name": "Casinia Wonderpot GEO",
+      "brand": "Casinia",
+      "url": "https://cas1nia.com/jackpots/progressive-jackpot",
+      "category": "jackpot",
+      "product": "Casino",
+      "bonus": "100% up to €500 + 200 Free Spins",
+      "bonus_amount": 500,
+      "free_spins": 200,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "40x",
+      "rating": 4.7,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Progressive Jackpot",
+        "Big Wins",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "One spin could change everything at Casinia"
+    },
+    {
+      "id": 70059,
+      "name": "OnlySpins Mine Slot GEO",
+      "brand": "OnlySpins",
+      "url": "https://on1ysp1ns-100.com/game/mine-slot-v1",
+      "category": "slots",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Mine Slot",
+        "Slot Games",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Play & win big on OnlySpins"
+    },
+    {
+      "id": 70008,
+      "name": "OnlySpins TR crypto welcome offer",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/promotions/casino/welcome_crypto_offer",
+      "category": "bonus",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Crypto Welcome",
+        "Free Spins",
+        "Fast Payouts"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Grab your bonus at OnlySpins now"
+    },
+    {
+      "id": 69904,
+      "name": "OnlySpins GEO",
+      "brand": "OnlySpins",
+      "url": "https://on1ysp1ns-100.com",
+      "category": "main",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Welcome Bonus",
+        "Free Spins",
+        "Casino Games"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Explore OnlySpins — games & bonuses"
+    },
+    {
+      "id": 69898,
+      "name": "OnlySpins Slot Chicken Road TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/game/chicken-road-v2",
+      "category": "slots",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Chicken Road",
+        "Slot Games",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Play & win big on OnlySpins"
+    },
+    {
+      "id": 69897,
+      "name": "OnlySpins Slot Sweet Bonanza TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/game/sweet-bonanza",
+      "category": "slots",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Sweet Bonanza",
+        "Slot Games",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Play & win big on OnlySpins"
+    },
+    {
+      "id": 69896,
+      "name": "OnlySpins Slot Gates of Olympus TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/game/gates-of-olympus-super-scatter-v1",
+      "category": "slots",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Gates of Olympus",
+        "Slot Games",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Play & win big on OnlySpins"
+    },
+    {
+      "id": 69895,
+      "name": "OnlySpins Welcome Bonus TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/promotions/casino/welcome-bonus",
+      "category": "bonus",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Welcome Bonus",
+        "Free Spins",
+        "Casino Games"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Grab your bonus at OnlySpins now"
+    },
+    {
+      "id": 69894,
+      "name": "OnlySpins Sportpage TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/sport",
+      "category": "sport",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Sports Betting",
+        "Casino Games",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "OnlySpins sports — bet & win big"
+    },
+    {
+      "id": 69892,
+      "name": "OnlySpins Casinopage TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/games",
+      "category": "slots",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Casino Games",
+        "Slots",
+        "Welcome Bonus"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Play & win big on OnlySpins"
+    },
+    {
+      "id": 69891,
+      "name": "OnlySpins Registration TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/registration",
+      "category": "reg",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Fast Registration",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Join OnlySpins — fast & easy registration"
+    },
+    {
+      "id": 69890,
+      "name": "OnlySpins Homepage TR",
+      "brand": "OnlySpins",
+      "url": "https://2onlspns1.com/tr/",
+      "category": "main",
+      "product": "Casino",
+      "bonus": "100% up to €300 + 150 Free Spins",
+      "bonus_amount": 300,
+      "free_spins": 150,
+      "no_deposit_spins": 0,
+      "no_deposit_code": "",
+      "promo_code": "",
+      "min_deposit": 10,
+      "wagering": "35x",
+      "rating": 4.3,
+      "license": "Curacao eGaming",
+      "highlights": [
+        "Casino Games",
+        "Welcome Bonus",
+        "Free Spins"
+      ],
+      "cta_text": "Claim Now",
+      "card_headline": "Explore OnlySpins — games & bonuses"
+    }
+  ],
+  "seo_text": {
+    "about_h2": "Váš sprievodca najlepšími casino bonusmi 2026",
+    "about_p1": "Vitajte na najlepšej platforme pre vyhľadávanie bonusov online kasín. Porovnávame stovky ponúk z licencovaných kasín a prinášame exkluzívne uvítacie bonusy a promo kódy.",
+    "about_p2": "Každé kasíno má platnú licenciu od Malta Gaming Authority (MGA) alebo Curacao eGaming. Overujeme bezpečnostné opatrenia a doby výplat.",
+    "about_p3": "Pochopenie podmienok pretočenia je kľúčové. 35x wagering znamená staviť 35-krát bonus. Navštívte <a href=\"#bonus\">sekciu bonusov</a> alebo preskúmajte <a href=\"#free\">ponuky bez vkladu</a>."
+  },
+  "faq": [
+    {
+      "q": "Aký je najlepší casino bonus 2026?",
+      "a": "Najlepšie bonusy ponúkajú až €600 s 200 zatočeniami zadarmo. Casinia ponúka 100% do €500 s MGA licenciou."
+    },
+    {
+      "q": "Ako použiť promo kód?",
+      "a": "Skopírujte kód (napr. RABONA20) a vložte pri registrácii alebo v pokladni."
+    },
+    {
+      "q": "Čo znamená podmienka pretočenia?",
+      "a": "35x pretočenie znamená staviť 35-krát bonus pred výberom."
+    },
+    {
+      "q": "Sú tieto kasína bezpečné?",
+      "a": "Áno, všetky majú licencie MGA alebo Curacao eGaming s SSL šifrovaním."
+    },
+    {
+      "q": "Ako rýchlo môžem vybrať výhry?",
+      "a": "E-peňaženky do 24 hodín, bankové prevody 2-5 pracovných dní."
+    },
+    {
+      "q": "Môžem hrať na mobile?",
+      "a": "Samozrejme! Všetky kasína sú optimalizované pre mobilné hranie."
+    }
+  ],
+  "footer": {
+    "disclaimer_18": "18+ Len pre dospelých. Hazardné hry môžu byť návykové. Hrajte zodpovedne.",
+    "affiliate_disclosure": "Tento web obsahuje affiliate odkazy. Môžeme získať províziu bez nákladov pre vás.",
+    "responsible_gambling": "Ak sa gambling stane problémom, vyhľadajte pomoc. GamCare (www.gamcare.org.uk)."
+  },
+  "blogs": []
 }
