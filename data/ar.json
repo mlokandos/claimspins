@@ -164,9 +164,9 @@
       "url": "https://rbnn16cm.lpmediastorage.com/ar",
       "category": "main",
       "product": "Casino",
-      "bonus": "100% up to €300 + 100 Free Spins",
-      "bonus_amount": 300,
-      "free_spins": 100,
+      "bonus": "Win up to 200 Free Spins — Spin the Wheel",
+      "bonus_amount": 0,
+      "free_spins": 200,
       "no_deposit_spins": 0,
       "no_deposit_code": "",
       "promo_code": "",
@@ -179,8 +179,8 @@
         "Welcome Bonus",
         "Free Spins"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Explore Rabona — games & bonuses"
+      "cta_text": "Spin Now",
+      "card_headline": "How many spins will you win? Spin the wheel now!"
     },
     {
       "id": 71066,
@@ -189,8 +189,8 @@
       "url": "https://rbnn12cm.lpmediastorage.com/ar",
       "category": "sport",
       "product": "Sport",
-      "bonus": "100% up to €300 Sports Welcome",
-      "bonus_amount": 300,
+      "bonus": "100% Welcome Bonus up to $1,926 + 4 Free Bets",
+      "bonus_amount": 1926,
       "free_spins": 0,
       "no_deposit_spins": 0,
       "no_deposit_code": "",
@@ -204,8 +204,8 @@
         "Live Betting",
         "Welcome Bonus"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Rabona sports — bet & win big"
+      "cta_text": "Get Bonus",
+      "card_headline": "Be Napoli. Play with Rabona — €1,926 + 4 Free Bets"
     },
     {
       "id": 70774,
@@ -381,31 +381,6 @@
       ],
       "cta_text": "Claim Now",
       "card_headline": "Grab your bonus at OnlySpins now"
-    },
-    {
-      "id": 69916,
-      "name": "Rabona — Sports 100% First Deposit Bonus AR",
-      "brand": "Rabona",
-      "url": "https://ksfjdjffg86.com/ar/promotions/sport/fdb-100-2",
-      "category": "sport",
-      "product": "Sport",
-      "bonus": "100% up to €300 Sports Welcome",
-      "bonus_amount": 300,
-      "free_spins": 0,
-      "no_deposit_spins": 0,
-      "no_deposit_code": "",
-      "promo_code": "",
-      "min_deposit": 10,
-      "wagering": "35x",
-      "rating": 4.6,
-      "license": "Curacao eGaming",
-      "highlights": [
-        "Sports Betting",
-        "Welcome Bonus",
-        "Live Betting"
-      ],
-      "cta_text": "Claim Now",
-      "card_headline": "Rabona sports — bet & win big"
     },
     {
       "id": 69904,

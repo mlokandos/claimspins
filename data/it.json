@@ -113,8 +113,8 @@
       "url": "https://ksfjdjffg86.com/it/promotions/sport/50-weekly-reload-bonus",
       "category": "sport",
       "product": "Sport",
-      "bonus": "50% Weekly Reload Bonus",
-      "bonus_amount": 200,
+      "bonus": "50% Weekly Reload Bonus up to €500",
+      "bonus_amount": 500,
       "free_spins": 0,
       "no_deposit_spins": 0,
       "no_deposit_code": "",
@@ -128,8 +128,8 @@
         "Sports Betting",
         "Live Betting"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Rabona sports — bet & win big"
+      "cta_text": "Partecipa ora",
+      "card_headline": "50% Weekly Reload Bonus — fino a €500"
     },
     {
       "id": 71348,
@@ -138,9 +138,9 @@
       "url": "https://ksfjdjffg86.com/it/fast-registration",
       "category": "reg",
       "product": "Casino",
-      "bonus": "100% up to €300 + 100 Free Spins",
-      "bonus_amount": 300,
-      "free_spins": 100,
+      "bonus": "100% fino a €150 Bonus Sport Benvenuto",
+      "bonus_amount": 150,
+      "free_spins": 0,
       "no_deposit_spins": 0,
       "no_deposit_code": "",
       "promo_code": "",
@@ -153,8 +153,8 @@
         "Welcome Bonus",
         "Free Spins"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Join Rabona — fast & easy registration"
+      "cta_text": "Registrati ora",
+      "card_headline": "Registrati su Rabona — bonus sport fino a €150"
     },
     {
       "id": 71347,
@@ -288,9 +288,9 @@
       "url": "https://rbnn16cm.lpmediastorage.com/it",
       "category": "main",
       "product": "Casino",
-      "bonus": "100% up to €300 + 100 Free Spins",
-      "bonus_amount": 300,
-      "free_spins": 100,
+      "bonus": "Win up to 200 Free Spins — Spin the Wheel",
+      "bonus_amount": 0,
+      "free_spins": 200,
       "no_deposit_spins": 0,
       "no_deposit_code": "",
       "promo_code": "",
@@ -303,8 +303,8 @@
         "Welcome Bonus",
         "Free Spins"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Explore Rabona — games & bonuses"
+      "cta_text": "Spin Now",
+      "card_headline": "How many spins will you win? Spin the wheel now!"
     },
     {
       "id": 70774,
