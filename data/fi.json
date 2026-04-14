@@ -88,7 +88,7 @@
       "url": "https://9867-cas1nia.com/fi/login",
       "category": "main",
       "product": "Casino",
-      "bonus": "100% up to €500 + 200 Free Spins",
+      "bonus": "100% up to €500 + 200 Free Spins + 1 Bonus Crab",
       "bonus_amount": 500,
       "free_spins": 200,
       "no_deposit_spins": 0,
@@ -103,8 +103,8 @@
         "Free Spins",
         "VIP Program"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "Explore Casinia — games & bonuses"
+      "cta_text": "Login",
+      "card_headline": "Login to Casinia — your games await"
     },
     {
       "id": 71430,
@@ -313,7 +313,7 @@
       "url": "https://cas1nia.com/jackpots/progressive-jackpot",
       "category": "jackpot",
       "product": "Casino",
-      "bonus": "100% up to €500 + 200 Free Spins",
+      "bonus": "Wonderpot Progressive Jackpot — Ultra, Boost & Flash Prizes",
       "bonus_amount": 500,
       "free_spins": 200,
       "no_deposit_spins": 0,
@@ -328,8 +328,8 @@
         "Big Wins",
         "Welcome Bonus"
       ],
-      "cta_text": "Claim Now",
-      "card_headline": "One spin could change everything at Casinia"
+      "cta_text": "Play Now",
+      "card_headline": "Win the Wonderpot — multi-million jackpot"
     },
     {
       "id": 70059,
